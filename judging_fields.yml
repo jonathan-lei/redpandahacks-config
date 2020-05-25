@@ -1,19 +1,19 @@
 options:
 
 custom_fields:
-  - name: howred
-    label: "How red is this project compared to other RedPanda Hacks?"
+  - name: howgood
+    label: "How good (overall) is this project compared to other Hack3 hacks?"
     type: button
     max: 20
     scores:
       - points: 5
-        description: "Project is not red at all."
+        description: "Project is not good at all."
       - points: 10
-        description: "Has some red, but not enough for a true Red Panda"
+        description: "Has some merit, but not enough for a true winner of Hack3"
       - points: 15
-        description: "Acceptable amount of red"
+        description: "Acceptable amount of goodness"
       - points: 20
-        description: "Amazing! Very red"
+        description: "Amazing! Very good"
   - name: works
     label: "Does the hack work?"
     type: range
@@ -47,10 +47,11 @@ custom_fields:
     max: 3
     scores: 
       - points: 0
-        description: "I dislike them (1pt because Red Pandas should at least get 1)"
+        description: "I dislike them (1pt because hackers should at least get 1)"
       - points: 1
         description: "I like them (2pts)"
       - points: 2
         description: "I love them (3pts)"
       - points: 3
         description: "They are amazing! (4pts)"
+
